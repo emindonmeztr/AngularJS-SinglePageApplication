@@ -45,28 +45,28 @@ $scope.books = [
   	price: 1,
     author: "Leo Tolstoy",
   	available: true,
-  	thumb: "content/img/yoshi.png"
+  	thumb: "content/img/image.png"
   }, {
   	name: "Madame Bovary",
   	belt: "red",
   	price: 2,
     author: "Gustave Flaubert",
   	available: true,
-  	thumb: "content/img/crystal.png"
+  	thumb: "content/img/image.png"
   }, {
   	name: "War and Peace",
   	belt: "orange",
   	price: 3,
     author: "Leo Tolstoy",
   	available: true,
-  	thumb: "content/img/ryu.png"
+  	thumb: "content/img/image.png"
   }, {
   	name: "The Great Gatsby",
   	belt: "black",
   	price: 4,
     author: "F.Scott Fitzgerald",
   	available: true,
-  	thumb: "content/img/shaun.png"
+  	thumb: "content/img/image.png"
   }
   , {
   	name: "Lolita",
@@ -74,7 +74,7 @@ $scope.books = [
   	price: 5,
     author: "Vladimir Nabokov",
   	available: true,
-  	thumb: "content/img/shaun.png"
+  	thumb: "content/img/image.png"
   }
   , {
   	name: "Middlemarch",
@@ -82,7 +82,7 @@ $scope.books = [
   	price: 6,
     author: "George Eliot",
   	available: true,
-  	thumb: "content/img/shaun.png"
+  	thumb: "content/img/image.png"
   }
   , {
   	name: "The Adventures of Huckleberry Finn",
@@ -90,7 +90,7 @@ $scope.books = [
   	price: 7,
     author: "Mark Twain",
   	available: true,
-  	thumb: "content/img/shaun.png"
+  	thumb: "content/img/image.png"
   }
   , {
     name: "The Stories of Anton Chekhov",
@@ -98,7 +98,7 @@ $scope.books = [
     price: 8,
     author: "Anton Chekhov",
     available: true,
-    thumb: "content/img/shaun.png"
+    thumb: "content/img/image.png"
   }
   , {
     name: "In Search of Lost Time",
@@ -106,7 +106,7 @@ $scope.books = [
     price: 9,
     author: "Marcel Proust",
     available: true,
-    thumb: "content/img/shaun.png"
+    thumb: "content/img/image.png"
   }
   , {
     name: "Hamlet",
@@ -114,7 +114,7 @@ $scope.books = [
     price: 10,
     author: "William Shakespeare",
     available: true,
-    thumb: "content/img/shaun.png"
+    thumb: "content/img/image.png"
   }
 ];
 
