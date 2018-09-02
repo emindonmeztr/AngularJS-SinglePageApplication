@@ -1,0 +1,22 @@
+<div class="content">
+  <button ng-click="order = 'name'">Order by Name</button>
+  <button ng-click="order = 'belt'">Order by Belt</button>
+  <input type="text" ng-model="search" placeholder="Search for a book...">
+  <ul>
+    <li ng-repeat="book in books | orderBy: order | filter : search" ng-show="book.available">
+      <img ng-src="{{book.thumb}}" style="margin: -12px 10px 0 0; float: left; width: 50px;"
+      ng-show="book.thumb"/>
+      <h3>{{book.name}} - {{book.price | currency : '₺'}}</h3>
+      <div class="remove" ng-click="removeBook(book)">x</div>
+      <span class="belt" style="background: {{book.belt}}">{{book.belt}} belt</span>
+    </li>
+  </ul>
+  <form ng-submit="addBook()">
+  <input type="text" placeholder="name" ng-model="newbook.name" />
+  <input type="text" placeholder="belt" ng-model="newbook.belt" />
+  <input type="text" placeholder="price" ng-model="newbook.price" />
+  <input type="text" placeholder="author" ng-model="newbook.author" />
+  <input type="text" placeholder="local image url" ng-model="newbook.thumb" />
+  <input type="submit" value="Add new book" />
+  </form>
+</div>
