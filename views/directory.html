@@ -2,11 +2,11 @@
   <button ng-click="order = 'name'">Order by Name</button>
   <button ng-click="order = 'belt'">Order by Belt</button>
   <input type="text" ng-model="search" placeholder="Search for a book...">
-  <ul>
+  <ul id="book-list">
     <li ng-repeat="book in books | orderBy: order | filter : search" ng-show="book.available">
       <img ng-src="{{book.thumb}}" style="margin: -12px 10px 0 0; float: left; width: 50px;"
       ng-show="book.thumb"/>
-      <h3>{{book.name}} - {{book.price | currency : '₺'}}</h3>
+      <h3>{{book.name}} - {{book.author}} - {{book.price | currency : '₺'}}</h3>
       <div class="remove" ng-click="removeBook(book)">x</div>
       <span class="belt" style="background: {{book.belt}}">{{book.belt}} belt</span>
     </li>
@@ -19,4 +19,5 @@
   <input type="text" placeholder="local image url" ng-model="newbook.thumb" />
   <input type="submit" value="Add new book" />
   </form>
+  <a href="" ng-click="removeAll()">Remove all books</a>
 </div>
