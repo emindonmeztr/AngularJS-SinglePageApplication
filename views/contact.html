@@ -8,7 +8,7 @@
     <div ng-show="contactForm.email.$touched && contactForm.email.$invalid">
       <small style="color: red; display:block; text-align:center;">Enter a email address!</small>
     </div>
-    <textarea placeholder="Your message" name="message"  ng-model="contact.message"  ng-required="true"></textarea>
+    <textarea style="resize:none;" rows="3" cols="147" placeholder="Your message" name="message"  ng-model="contact.message"  ng-required="true"></textarea>
     <input type="submit" value="Send" ng-disabled="contactForm.$invalid"/>
   </form>
 </div>
