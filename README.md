@@ -6,3 +6,5 @@ MVC has been used as architectural pattern for developing user interfaces that d
 Thanks for AngularJs Tutorial channel The Net Ninja in Youtube.I have learned so many things from it and strongly suggest all web developers.
 
 Technologies: HTML, CSS, JSON, ANGULARJS
+
+Packages was used in Atom: atom-live-server, autoclose-html, autocomplete-angular-material, git-plus
