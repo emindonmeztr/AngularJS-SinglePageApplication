@@ -7,4 +7,4 @@ Thanks for AngularJs Tutorial channel The Net Ninja in Youtube.I have learned so
 
 Technologies: HTML, CSS, JSON, ANGULARJS
 
-Packages was used in Atom: atom-live-server, autoclose-html, autocomplete-angular-material, git-plus
+Packages were used in Atom: atom-live-server, autoclose-html, autocomplete-angular-material, git-plus
